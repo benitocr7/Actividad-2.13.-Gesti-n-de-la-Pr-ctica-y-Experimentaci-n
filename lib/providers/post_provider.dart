@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../data/post_service.dart';
 import '../models/post_model.dart';
 
+// Provider para manejo de estados de posts
+
 enum PostStatus { loading, success, empty, error }
 
 class PostProvider extends ChangeNotifier {
