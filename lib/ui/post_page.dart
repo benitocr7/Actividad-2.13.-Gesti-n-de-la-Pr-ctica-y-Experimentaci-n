@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
 import '../providers/post_provider.dart';
 
+// UI principal de la lista de posts con estados
 class PostPage extends StatelessWidget {
   const PostPage({super.key});
 
